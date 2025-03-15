@@ -33,8 +33,8 @@ Copy and save the following script as `myscript.sh`:
 #!/bin/bash  
 
 # 🖥️ My First Shell Script  
-# 📅 Date: [YYYY-MM-DD]  
-# ✍️ Author: [Your Name]  
+# 📅 Date: [2025-15-03]  
+# ✍️ Author: [Gaurav Kamble]  
 # 📝 Description: A simple script that prompts the user for a number and displays it.  
 
 # 📌 Prompt user for input  
@@ -86,6 +86,6 @@ Want to improve this script? Feel free to **fork**, **modify**, and submit a **p
 This script is released under the **MIT License** 📄.  
 
 ## 👤 Author  
-🚀 **[Your Name]**  
-📧 [Your Email]  
-🔗 [Your Website/GitHub Profile]  
+🚀 Gaurav Kamble
+📧 gauravkamble9112@gmail.com
+
