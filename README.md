@@ -20,64 +20,72 @@ Before running the script, ensure that:
 
 ### 📥 1. Clone the Repository (Optional)  
 If using Git, run:  
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
 
+\```bash  
+git clone <your-repo-url>  
+cd <your-repo-folder>  
+\```
 
-📝 2. Save the Script
-Copy and save the following script as myscript.sh:
+### 📝 2. Save the Script  
+Copy and save the following script as `myscript.sh`:  
 
-bash
-Copy
-Edit
-#!/bin/bash
+\```bash  
+#!/bin/bash  
 
-# 🖥️ My First Shell Script
-# 📅 Date: [YYYY-MM-DD]
-# ✍️ Author: [Your Name]
-# 📝 Description: A simple script that prompts the user for a number and displays it.
+# 🖥️ My First Shell Script  
+# 📅 Date: [YYYY-MM-DD]  
+# ✍️ Author: [Your Name]  
+# 📝 Description: A simple script that prompts the user for a number and displays it.  
 
-# 📌 Prompt user for input
-read -p "🔢 Enter a number: " no1
+# 📌 Prompt user for input  
+read -p "🔢 Enter a number: " no1  
 
-# 📊 Display the entered number
-echo "✅ You entered: $no1"
-🔑 3. Grant Execution Permission
-Run the following command to make the script executable:
+# 📊 Display the entered number  
+echo "✅ You entered: $no1"  
+\```
 
-bash
-Copy
-Edit
-chmod +x myscript.sh
-▶️ 4. Run the Script
-Execute the script using:
+### 🔑 3. Grant Execution Permission  
+Run the following command to **make the script executable**:  
 
-bash
-Copy
-Edit
-./myscript.sh
-📌 Expected Output
-yaml
-Copy
-Edit
-🔢 Enter a number: 10
-✅ You entered: 10
-🔧 Customization Ideas
-✅ Add input validation to ensure only numbers are entered.
-🔄 Modify it to accept multiple inputs and perform calculations.
-🛠️ Extend the script to log inputs and save them to a file.
-🤝 Contributing
-Want to improve this script? Feel free to fork, modify, and submit a pull request!
+\```bash  
+chmod +x myscript.sh  
+\```
 
-📜 License
-This script is released under the MIT License 📄.
+### ▶️ 4. Run the Script  
+Execute the script using:  
 
-👤 Author
-🚀 [Your Name]
-📧 [Your Email]
-🔗 [Your Website/GitHub Profile]
+\```bash  
+./myscript.sh  
+\```
 
-yaml
-Copy
-Edit
+## 📌 Expected Output  
+\```bash  
+🔢 Enter a number: 10  
+✅ You entered: 10  
+\```
+
+## 📌 How to Format Code Blocks in Markdown  
+To display **copyable command boxes** like the ones above, wrap your commands inside **triple backticks (\`\`\`)** followed by the language (e.g., `bash` for shell scripts).  
+
+Example:  
+\`\`\`bash  
+echo "Hello, World!"  
+\`\`\`  
+
+🔹 This ensures that the Markdown file properly converts it into a **formatted code block** when rendered.  
+
+## 🔧 Customization Ideas  
+- ✅ Add **input validation** to ensure only numbers are entered.  
+- 🔄 Modify it to accept **multiple inputs** and perform calculations.  
+- 🛠️ Extend the script to **log inputs** and save them to a file.  
+
+## 🤝 Contributing  
+Want to improve this script? Feel free to **fork**, **modify**, and submit a **pull request**!  
+
+## 📜 License  
+This script is released under the **MIT License** 📄.  
+
+## 👤 Author  
+🚀 **[Your Name]**  
+📧 [Your Email]  
+🔗 [Your Website/GitHub Profile]  
